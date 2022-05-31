@@ -57,7 +57,6 @@ if __name__ == "__main__":
 	arg("--batchsize", type=int, default=32)
 	arg("--numlabels", type=int, default=7)
 	arg("--accumsteps", type=int, default=1)
-	arg("--getsubsetdata", default=False)
 
 	args = parser.parse_args()
 	modelpath = args.modelpath
@@ -72,7 +71,6 @@ if __name__ == "__main__":
 	batchsize = args.batchsize
 	numlabels = args.numlabels
 	accumsteps = args.accumsteps
-	getsubsetdata = args.getsubsetdata
 
 	# Create folder name for saving model
 	outputdir = '{0}-L{1}-LR{2}-W{3}-B{4}-AC{5}-{6}'.format(modelname, maxlength, learningrate, weightdecay, batchsize, accumsteps, language)
