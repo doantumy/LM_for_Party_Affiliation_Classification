@@ -74,5 +74,12 @@ The syntax is the same as in [2], simply replace the path of `modelpath` to the 
 ## To cite paper:
 
 ```
-TBA
+@inproceedings{doan2022using,
+  title={Using Language Models for Classifying the Party Affiliation of Political Texts},
+  author={Doan, Tu My and Kille, Benjamin and Gulla, Jon Atle},
+  booktitle={International Conference on Applications of Natural Language to Information Systems},
+  pages={382--393},
+  year={2022},
+  organization={Springer}
+}
 ```
